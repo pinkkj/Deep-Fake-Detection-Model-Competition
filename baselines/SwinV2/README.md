@@ -16,10 +16,9 @@ SwinV2/
  ├─ README.md          ← 이 설명 파일
  ├─ train.py           ← SwinV2 학습·평가 메인 스크립트
  ├─ train.sh           ← (선택) SLURM 클러스터용 학습 스크립트
- ├─ real_train_stats.npz  ← real 이미지 통계(해상도, blur) 파일
  └─ deep_env.yaml      ← Conda 가상환경 설정 파일
 ```
-> ✅ real_train_stats.npz는 real 라벨 이미지들의 해상도 / Laplacian blur 분포를
+> ✅(참고) ../real_train_stats.npz는 real 라벨 이미지들의 해상도 / Laplacian blur 분포를
 미리 계산해 저장한 파일로, 학습 시 fake 이미지에 가벼운 열화(degradation)를 줄 때 사용됩니다
 
 ## 2. 환경 설정 (Environment)

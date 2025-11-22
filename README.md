@@ -30,7 +30,7 @@ VerifyAI가 제출한 딥페이크 이미지 탐지 모델의 코드와 환경 �
         - 1 = fake (synthetic)
     - Hugging Face AutoImageProcessor로 입력 이미지를 전처리합니다.
 
-# 3. 데이터셋 설명
+# 3. 데이터셋 설명(참고: [openfake_an open dataset and platform toward real World deepfake detection](https://pinkkj.github.io/posts/CV-OpenFake_An-Open-Dataset-and-Platform-Toward-Real-world-Deepfake-Detection/)
 ## 3.1 OpenFake 전체 개요
 본 프로젝트는 Hugging Face Hub의 ComplexDataLab/OpenFake 데이터셋을 학습/평가에 사용합니다. [OpenFake](https://huggingface.co/datasets/ComplexDataLab/OpenFake?utm_source=chatgpt.com)
 <br><br>OpenFake는 다음과 같은 특징을 갖는 대규모 정치·사회 맥락 기반 딥페이크 벤치마크입니다.

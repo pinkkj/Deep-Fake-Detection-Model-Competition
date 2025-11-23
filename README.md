@@ -10,10 +10,10 @@ VerifyAI가 제출한 딥페이크 이미지 탐지 모델의 코드와 환경 �
 ```text
 .
 ├─ baselines/
+|   └─ real_train_stats.npz  # real 이미지 해상도/블러 통계
 │   └─ SwinV2/
 │       ├─ train.py          # SwinV2 학습 + 평가 메인 스크립트
 │       ├─ train.sh          # (선택) SLURM 클러스터용 학습 스크립트
-│       ├─ real_train_stats.npz  # real 이미지 해상도/블러 통계
 │       ├─ deep_env.yaml     # Conda 가상환경 정의
 │       └─ README.md         # SwinV2 전용 README
 └─ README.md                 # (현재 파일) 대회 제출용 메인 설명
